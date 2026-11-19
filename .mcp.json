@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "shamela": {
+      "type": "http",
+      "url": "https://shamela.link/mcp"
+    },
+    "qurangallery": {
+      "type": "http",
+      "url": "https://qurangallery.com/mcp/shamela"
+    },
+    "turath": {
+      "type": "http",
+      "url": "https://mcp.turath.io/mcp/"
+    },
+    "hadithunlocked": {
+      "type": "http",
+      "url": "https://hadithunlocked.com/mcp"
+    },
+    "tafsir": {
+      "type": "http",
+      "url": "https://mcp.tafsir.net/mcp"
+    },
+    "quran": {
+      "type": "http",
+      "url": "https://mcp.quran.ai"
+    }
+  }
+}
