@@ -41,3 +41,4 @@ mesin/_tmp/
 mesin/*.ttf
 __pycache__/
 ~$*
+!/SKILL.md
