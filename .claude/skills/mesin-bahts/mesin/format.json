@@ -1,0 +1,89 @@
+{
+  "imam": {
+    "_sumber": "القواعد المنظمة لتسجيل الرسالة العلمية وكتابتها وطباعتها وتقديمها (عمادة الدراسات العليا بجامعة الإمام، 1442هـ)",
+    "huruf": "Traditional Arabic",
+    "matan": 18,
+    "catatan": 14,
+    "judul": 20,
+    "catatan_ulang_tiap_halaman": true
+  },
+  "imam_ayat16": {
+    "_sumber": "sama dengan «imam», kecuali ayat di matan dan فهرس الآيات 16 (huruf mushaf tampak lebih besar daripada matan pada angka yang sama)",
+    "huruf": "Traditional Arabic",
+    "matan": 18,
+    "ayat": 16,
+    "catatan": 14,
+    "judul": 20,
+    "catatan_ulang_tiap_halaman": true
+  },
+  "imam_ayat16_bersambung": {
+    "_sumber": "sama dengan «imam_ayat16», kecuali nomor catatan kaki bersambung (١، ٢، ٣ … sampai akhir bahts), tidak mulai ١ lagi tiap halaman; untuk dosen atau mahasiswa yang memintanya",
+    "huruf": "Traditional Arabic",
+    "matan": 18,
+    "ayat": 16,
+    "catatan": 14,
+    "judul": 20,
+    "catatan_ulang_tiap_halaman": false
+  },
+  "tatbiqi": {
+    "_sumber": "ketentuan dosen البحث التطبيقي di معهد العلوم الإسلامية والعربية: judul 16, matan 14, catatan kaki 12, Traditional Arabic, A4",
+    "huruf": "Traditional Arabic",
+    "matan": 14,
+    "catatan": 12,
+    "judul": 16,
+    "catatan_ulang_tiap_halaman": true
+  },
+  "tatbiqi_15": {
+    "_sumber": "sama dengan «tatbiqi», kecuali matan 1,5 spasi dan paragraf الملخص berjarak tanpa awal alinea menjorok (contoh البحث التطبيقي mahasiswa lain di معهد العلوم الإسلامية والعربية)",
+    "huruf": "Traditional Arabic",
+    "matan": 14,
+    "catatan": 12,
+    "judul": 16,
+    "catatan_ulang_tiap_halaman": true,
+    "spasi": 1.5,
+    "mulakhas_berjarak": true
+  },
+  "tatbiqi_mulakhas": {
+    "_sumber": "sama dengan «tatbiqi» (satu spasi), kecuali bagian الملخص dan الملخص باللغة الأجنبية 1,5 spasi dengan paragraf berjarak tanpa awal alinea menjorok, seperti contoh البحث التطبيقي mahasiswa lain di المعهد",
+    "huruf": "Traditional Arabic",
+    "matan": 14,
+    "catatan": 12,
+    "judul": 16,
+    "catatan_ulang_tiap_halaman": true,
+    "spasi_mulakhas": 1.5,
+    "mulakhas_berjarak": true
+  },
+  "tatbiqi_16": {
+    "_sumber": "ketentuan dosen البحث التطبيقي (mahasiswi المعهد, 2026): Traditional Arabic, matan 16, catatan kaki 12, spasi 1,5, judul utama (#K/#F) 18, sub-judul (#B/#M/#S) 16",
+    "huruf": "Traditional Arabic",
+    "matan": 16,
+    "catatan": 12,
+    "judul": 18,
+    "judul_sub": 16,
+    "catatan_ulang_tiap_halaman": true,
+    "spasi": 1.5
+  },
+  "dalil": {
+    "_sumber": "دليل إعداد وكتابة الرسائل العلمية (ماجستير/دكتوراه) بجامعة الإمام، الطبعة الثانية — hanya huruf dan ukurannya; gaya rujukan tetap catatan kaki",
+    "huruf": "Sakkal Majalla",
+    "matan": 16,
+    "catatan": 12,
+    "judul": 18,
+    "catatan_ulang_tiap_halaman": true
+  },
+  "jakarta": {
+    "_sumber": "tata letak contoh bahts قسم الشريعة بجاكرتا (dipakai @model: jakarta): matan dan catatan kaki seperti «imam_ayat16», judul Sakkal Majalla tebal 18, nomor catatan kaki bersambung, tepi kanan 2,93 cm, kepala halaman 1,15 cm dari tepi atas; matan 1,15 spasi dengan jarak 10 pt sesudah paragraf; المصادر 16",
+    "huruf": "Traditional Arabic",
+    "huruf_judul": "Sakkal Majalla",
+    "matan": 18,
+    "ayat": 16,
+    "catatan": 14,
+    "judul": 18,
+    "catatan_ulang_tiap_halaman": false,
+    "tepi_kanan": 2.93,
+    "jarak_kepala": 1.15,
+    "spasi": 1.15,
+    "jarak_paragraf": 10,
+    "ukuran_pustaka": 16
+  }
+}

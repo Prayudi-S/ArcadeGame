@@ -1,0 +1,5 @@
+pyarrow
+pypdf
+fonttools
+rapidfuzz
+pymupdf

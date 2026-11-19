@@ -1,0 +1,43 @@
+# Yang masuk git cuma mesin, contoh, dan berkas akar. Sisanya tetap lokal:
+# - folder bahts (naskah, Word, PDF), termasuk bahts/<orang>/<topik>
+# - kitab/ = perpustakaan Shamela lokal (diunduh lewat `python mesin/bahts.py siapkan` dan `ambil <id>`)
+# - sampul_saya.txt = data sampul pemakai; keluaran_saya.txt = folder salinan PDF
+/*
+!/.gitignore
+!/.gitattributes
+!/.github/
+!/.mcp.json
+!/opencode.json
+!/AGENTS.md
+!/CLAUDE.md
+!/README.md
+!/README.ar.md
+!/README.id.md
+!/CHANGELOG.md
+!/LICENSE
+!/NOTICE
+!/requirements.txt
+!/mesin/
+!/contoh/
+!/dok/
+/contoh/*
+!/contoh/naskah.txt
+# jejak langkah riset contoh (dibaca `cek`, lihat cek_seluruh.periksa_riset)
+!/contoh/riset.txt
+# naskah jebakan: tiap baris di bawah #S menghasilkan persis yang disebut judulnya (diperiksa .github/uji_jebakan.py)
+!/contoh/jebakan/
+/contoh/jebakan/*
+!/contoh/jebakan/naskah.txt
+# jejak riset jebakan: menutup {H:}/{Q:} jebakan lain supaya hanya jebakan riset yang ditandai
+!/contoh/jebakan/riset.txt
+# PDF bukti <<luar|…|hal>> di jebakan: sumber.pdf = teks bersih (cetak Chromium dari teks buatan sendiri);
+# sumber_word.pdf = salinan contoh.pdf hasil `rakit contoh` (Word: huruf sambungan tertukar di teks PDF)
+!/contoh/jebakan/sumber.pdf
+# gambar #G di jebakan: PNG putih 60×30 buatan sendiri (baris «#S lolos — صورة #G»)
+!/contoh/jebakan/gambar.png
+!/contoh/jebakan/sumber_word.pdf
+# bahan antara mesin, sisa Word/Python, dan font mushaf (diunduh `siapkan`, lihat NOTICE)
+mesin/_tmp/
+mesin/*.ttf
+__pycache__/
+~$*
